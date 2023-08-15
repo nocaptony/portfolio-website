@@ -5,7 +5,7 @@
 @layer components {
   .menuItem {
     @apply px-6 uppercase text-sm tracking-widest text-gray-50 transition-all
-    hover:border-[#B266FF] hover:text-[#B266FF] hover:scale-110 hover:transition-all hover:duration-500 duration-500;
+    hover:border-[#A1A1AA] hover:text-[#A1A1AA] hover:scale-110 hover:transition-all hover:duration-500 duration-500;
   }
 }
 

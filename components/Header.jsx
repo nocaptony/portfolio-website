@@ -59,7 +59,7 @@ export default function Header(props) {
             <div className="text-2xl">
               <FiMail />
             </div>
-            <div className="px-2 uppercase hidden md:inline-flex text-base text-gray-400">
+            <div className="px-2 uppercase hidden md:inline-flex text-base text-gray-300">
               Contact
             </div>
           </div>

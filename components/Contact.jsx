@@ -5,7 +5,7 @@ export default function Contact() {
     e.preventDefault();
   };
   return (
-    <div className="flex flex-col items-center justify-center md:mt-0 rounded-xl border-2 border-[#49345e] w-3/4 md:w-3/6 lg:w-2/6">
+    <div className="flex flex-col items-center justify-center md:mt-0 rounded-xl border-2 border-[#FFFFFF] w-3/4 md:w-3/6 lg:w-2/6">
       <div className="text text-lg w-full pl-8 pt-4 uppercase">
         Get in Touch
       </div>
@@ -35,7 +35,7 @@ export default function Contact() {
         </div>
         <button
           type="submit"
-          className="flex justify-center bg-[#b366ff67] text-center rounded w-24 mt-2 py-1 hover:bg-[#b366ff]"
+          className="flex border-2 justify-center bg-[#FFFFFF] text-[#7D2940] text-center rounded w-24 mt-2 py-1 hover:bg-[#7D2940] hover:text-[#FFFFFF] hover:border-color-[#FFFFFF] hover:border-2"
         >
           Send
         </button>

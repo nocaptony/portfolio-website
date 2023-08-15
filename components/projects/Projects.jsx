@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import StreamyPic from "../../assets/Streamy1.png";
+import StreamyPic from "../../assets/goku.gif";
 import ParsecPic from "../../assets/Parsec1.png";
 import MeetupsPic from "../../assets/Meetups1.png";
 
