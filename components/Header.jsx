@@ -5,7 +5,7 @@ import { FiMail } from "react-icons/fi";
 
 export default function Header(props) {
   return (
-    <header className="fixed w-100 p-5 top-0 flex justify-between mx-auto z-20 items-center bg-[#7D2940]">
+    <header className="fixed w-100 p-5 top-0 flex justify-between mx-auto z-20 items-center bg-[#1B1B1B]">
       {/*Social Icons Motion Div*/}
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.5 }}

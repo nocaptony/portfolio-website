@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import StreamyPic from "../../assets/goku.gif";
+import SoccerTracker from "../../assets/soccertracker.gif";
 import ParsecPic from "../../assets/Parsec1.png";
 import MeetupsPic from "../../assets/Meetups1.png";
 
@@ -11,7 +11,7 @@ export default function Projects() {
         My Recent <span className="text-white">Works</span>
       </h3>
       <ul className="flex flex-col sm:flex-row">
-        <ProjectCard imgUrl={StreamyPic} title="Streamy" />
+        <ProjectCard imgUrl={SoccerTracker} title="SoccerTracker" link="https://github.com/nocaptony/soccer-tracker"/>
         <ProjectCard imgUrl={MeetupsPic} title="Meetups" />
         <ProjectCard imgUrl={ParsecPic} title="Dashboard" />
       </ul>

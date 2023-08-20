@@ -2,7 +2,7 @@ export const particleConfig = {
   autoPlay: true,
   background: {
     color: {
-      value: "#7D2940",
+      value: "#1B1B1B",
     },
     image: "",
     position: "",
