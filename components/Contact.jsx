@@ -1,5 +1,8 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import { useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -13,24 +16,29 @@ export default function Contact() {
 
     try {
       const templateParams = {
-        from_name: formData.name,
-        reply_to: formData.email,
+        name: formData.name,
+        email: formData.email,
         message: formData.message,
       };
 
       const response = await emailjs.send(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICEID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATEID,
         templateParams,
-        "YOUR_USER_ID"
+        process.env.NEXT_PUBLIC_EMAILJS_USERID
       );
 
-      console.log("Email sent:", response);
+      setFormData((prevData) => ({
+        ...prevData,
+        name: "",
+        email: "",
+        message: "",
+      }));
 
-      // You can display a success message to the user here if you'd like
+      toast.success(`${formData.name}, your message was sent successfully!`);
+
     } catch (error) {
-      console.error("Error sending email:", error);
-      // You can display an error message to the user here if you'd like
+      toast.error("An error occurred while sending the email.");
     }
   };
 
@@ -41,14 +49,10 @@ export default function Contact() {
       [name]: value,
     }));
   };
-  
+
   return (
     <div className="flex flex-col items-center justify-center md:mt-0 rounded-xl border-2 border-[#FFFFFF] w-3/4 md:w-3/6 lg:w-2/6">
-      <div className="text text-lg w-full pl-8 pt-4 uppercase">
-        Get in Touch
-      </div>
-      <div className="text-5xl w-full pl-8 pt-2">Contact.</div>
-      <div></div>
+      {/* ... (your div elements) */}
       <form
         id="contact-form"
         method="POST"
@@ -57,7 +61,13 @@ export default function Contact() {
       >
         <div className="flex flex-col py-2">
           <label htmlFor="name">Name</label>
-          <input type="text" className="form-control" />
+          <input
+            type="text"
+            className="form-control"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+          />
         </div>
         <div className="flex flex-col py-2">
           <label htmlFor="exampleInputEmail1">Email address</label>
@@ -65,11 +75,20 @@ export default function Contact() {
             type="email"
             className="form-control"
             aria-describedby="emailHelp"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
           />
         </div>
         <div className="flex flex-col py-2">
           <label htmlFor="message">Message</label>
-          <textarea className="form-control" rows="5"></textarea>
+          <textarea
+            className="form-control"
+            rows="5"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+          ></textarea>
         </div>
         <button
           type="submit"
@@ -78,6 +97,8 @@ export default function Contact() {
           Send
         </button>
       </form>
+      {/* Add the ToastContainer to display notifications */}
+      <ToastContainer position="bottom-right" />
     </div>
   );
-}
+} 
