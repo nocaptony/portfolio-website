@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import SoccerTracker from "../../public/soccertracker.gif";
-import Java3D from "../../public/java3d.gif";
+import SoccerTracker from "../../public/soccertracker.png";
+import Java3D from "../../public/java3d.png";
 import Forkify from "../../public/Forkify.png";
 
 export default function Projects() {
