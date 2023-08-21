@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import SoccerTracker from "../../assets/soccertracker.gif";
-import ParsecPic from "../../assets/Parsec1.png";
-import MeetupsPic from "../../assets/Meetups1.png";
+import Java3D from "../../assets/java3d.gif";
+import Forkify from "../../assets/Forkify.png";
 
 export default function Projects() {
   return (
@@ -12,8 +12,8 @@ export default function Projects() {
       </h3>
       <ul className="flex flex-col sm:flex-row">
         <ProjectCard imgUrl={SoccerTracker} title="SoccerTracker" link="https://github.com/nocaptony/soccer-tracker"/>
-        <ProjectCard imgUrl={MeetupsPic} title="Meetups" />
-        <ProjectCard imgUrl={ParsecPic} title="Dashboard" />
+        <ProjectCard imgUrl={Java3D} title="Java Sandbox Game" link="https://github.com/nocaptony/java-fractal-lands"/>
+        <ProjectCard imgUrl={Forkify} title="Forkify (Work in progress)" />
       </ul>
     </div>
   );

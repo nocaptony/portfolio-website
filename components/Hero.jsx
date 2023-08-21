@@ -6,7 +6,7 @@ import profilePic from "../public/profilePic.png";
 
 function Hero() {
   const [greeting] = useTypewriter({
-    words: ["Hello", "你好", "नमस्ते", "Hola", "Bonjour", "مرحباً", "হ্যালো", "Привет", "Olá", "ہیلو", "Halo", "Hallo", "こんにちは", "Hujambo", "Ciao"],
+    words: ["Hello", "你好", "नमस्ते", "Hola", "Bonjour", "مرحباً", "হ্যালো", "Привет", "Olá", "ہیلو", "Halo", "Hallo", "こんにちは", "Dobro Dan", "Ciao"],
     loop: true,
     delaySpeed: 2000,
   });
