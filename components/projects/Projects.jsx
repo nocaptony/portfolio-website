@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import SoccerTracker from "../../assets/soccertracker.gif";
-import Java3D from "../../assets/java3d.gif";
-import Forkify from "../../assets/Forkify.png";
+import SoccerTracker from "../../public/soccertracker.gif";
+import Java3D from "../../public/java3d.gif";
+import Forkify from "../../public/Forkify.png";
 
 export default function Projects() {
   return (

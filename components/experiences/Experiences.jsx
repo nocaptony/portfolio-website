@@ -1,6 +1,5 @@
 import React from "react";
 import { IoMdSchool } from "react-icons/io";
-import { FaUniversity } from "react-icons/fa";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
