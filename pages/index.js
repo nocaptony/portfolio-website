@@ -22,7 +22,7 @@ export default function Home() {
       <ParticleBackground />
 
       <Head>
-        <title>Tony's Portfolio</title>
+        <title>Tony`&apos;`s Portfolio</title>
       </Head>
       {/* Header */}
       <Header />
