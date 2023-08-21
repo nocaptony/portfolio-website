@@ -38,9 +38,7 @@ export default function About() {
            These years not only sharpened my coding abilities but also instilled in me a passion for solving intricate problems efficiently.
            Stepping into the world of frontend development, I embarked on a year-long journey that saw me dive into the intricacies of React Native, TypeScript, and JavaScript. 
            Through freelancing and hands-on projects, I have honed the art of translating user requirements into visually appealing and seamlessly functional interfaces. 
-           Understanding user behavior and preferences has become second nature, allowing me to create experiences that captivate and engage.
            My approach to development is characterized by a blend of technical expertise and creative finesse. 
-           I revel in crafting elegant solutions that marry the robustness of backend architecture with the elegance of frontend design. 
            What drives me is the constant pursuit of innovation, the thrill of exploring new technologies, and the satisfaction of turning abstract ideas into tangible digital realities.
         </p>
       </motion.div>
