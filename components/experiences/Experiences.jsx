@@ -25,7 +25,7 @@ export default function Experiences() {
           icon={<IoMdSchool />}
         >
           <h3 className="text-2xl">Salem State University</h3>
-          <span className="text-zinc-300">Bachelor`&apos;`s Degree, Software Engineering</span>
+          <span className="text-zinc-300">Bachelor&apos;s Degree, Software Engineering</span>
           <p />
         </VerticalTimelineElement>
         <VerticalTimelineElement
