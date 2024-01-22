@@ -7,6 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SSULogo from "@/assets/SSULogo";
 import DevLogo from "@/assets/DevLogo";
+import Dev1Logo from "@/assets/Dev1Logo";
 
 export default function Experiences() {
   return (
@@ -31,7 +32,7 @@ export default function Experiences() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#3A3B3C", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #3A3B3C" }}
-          date="08/2021 - 05/2022"
+          date="10/2021 - 11/2022"
           iconStyle={{ background: "#fff" }}
           icon={<SSULogo />}
         >
@@ -46,15 +47,30 @@ export default function Experiences() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#3A3B3C", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #3A3B3C" }}
-          date="08/2022 - Present"
+          date="06/2023 - 09/2023"
           iconStyle={{ background: "#fff" }}
           icon={<DevLogo />}
         >
-          <h3 className="text-2xl">Freelance Developer</h3>
-          <span className="text-zinc-300"> Frontend Developer</span>
+          <h3 className="text-2xl">Commit s.r.l</h3>
+          <span className="text-zinc-300">Front-End Developer Internship</span>
           <p>
             React · TypeScript · JavaScript · Web Development · Mobile Development · Android Studio ·
             XCode · GitHub · Cascading Style Sheets (CSS) · HTML
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#3A3B3C", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #3A3B3C" }}
+          date="10/2023 - Present"
+          iconStyle={{ background: "#fff" }}
+          icon={<Dev1Logo />}
+        >
+          <h3 className="text-2xl">Freelance Software Developer</h3>
+          <p>
+          Software development • Web development • Mobile app development • 
+          Backend development • Frontend development • Full-stack development • Agile development • 
+          Project management • Version control • Code review
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
