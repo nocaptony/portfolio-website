@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="">
         Powered by <span className="text-[#4ac4a3]">Next.js</span> and{" "}
         <span className="text-[#4ac4a3]">TailwindCSS</span>. Hosted on
-        <span className="text-[#4ac4a3]"> Vercel</span>
+        <span className="text-[#4ac4a3]"> Netlify</span>
       </div>
     </div>
   );
