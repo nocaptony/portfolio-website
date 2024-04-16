@@ -11,7 +11,7 @@ function Hero() {
     delaySpeed: 2000,
   });
   const [text] = useTypewriter({
-    words: ["I'm Tony Karaj", "<SoftwareDeveloper />"],
+    words: ["I'm Tony", "<SoftwareDeveloper />"],
     loop: true,
     delaySpeed: 2000,
   });

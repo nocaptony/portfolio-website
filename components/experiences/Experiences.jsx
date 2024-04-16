@@ -8,6 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import SSULogo from "@/assets/SSULogo";
 import DevLogo from "@/assets/DevLogo";
 import Dev1Logo from "@/assets/Dev1Logo";
+import HtdLogo from "@/assets/HtdLogo"
 
 export default function Experiences() {
   return (
@@ -71,6 +72,21 @@ export default function Experiences() {
           Software development • Web development • Mobile app development • 
           Backend development • Frontend development • Full-stack development • Agile development • 
           Project management • Version control • Code review
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#3A3B3C", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #3A3B3C" }}
+          date="03/2024 - Present"
+          iconStyle={{ background: "#fff" }}
+          icon={<HtdLogo />}
+        >
+          <h3 className="text-2xl">HTD Talent</h3>
+          <span className="text-zinc-300">Java Async/Sync Training</span>
+          <p>
+            Java · Maven · Spring Boot · JUnit · Testing · IntelliJ ·
+            GitHub · Slack · Docker · SQL · JavaScript · React
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

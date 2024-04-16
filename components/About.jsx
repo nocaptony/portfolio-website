@@ -33,7 +33,7 @@ export default function About() {
           Introduction
         </p>
         <p className=" text-zinc-200 text-base sm:text-lg md:text-xl lg:text-xl">
-           Hello, I&apos;m Tony Karaj, a dedicated software developer with a dynamic skill set that spans both backend and frontend realms. 
+           Hello, I&apos;m Tony, a dedicated software developer with a dynamic skill set that spans both backend and frontend realms. 
            My academic journey laid a strong foundation in backend development, where I mastered languages like Java, Python, C, and C++. 
            These years not only sharpened my coding abilities but also instilled in me a passion for solving intricate problems efficiently.
            Stepping into the world of frontend development, I embarked on a year-long journey that saw me dive into the intricacies of React Native, TypeScript, and JavaScript. 
