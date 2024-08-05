@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import SoccerTracker from "../../public/soccertracker.png";
 import Java3D from "../../public/java3d.png";
-import Forkify from "../../public/Forkify.png";
+import CapybaraMapper from "../../public/capybaramapper.png";
 
 export default function Projects() {
   return (
@@ -13,7 +13,7 @@ export default function Projects() {
       <ul className="flex flex-col sm:flex-row">
         <ProjectCard imgUrl={SoccerTracker} title="SoccerTracker" link="https://github.com/nocaptony/soccer-tracker"/>
         <ProjectCard imgUrl={Java3D} title="Java Sandbox Game" link="https://github.com/nocaptony/java-fractal-lands"/>
-        <ProjectCard imgUrl={Forkify} title="Forkify (Work in progress)" />
+        <ProjectCard imgUrl={CapybaraMapper} title="CapybaraMapper" link="https://github.com/nocaptony/CapybaraMapper"/>
       </ul>
     </div>
   );
