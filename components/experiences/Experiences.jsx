@@ -9,6 +9,7 @@ import SSULogo from "@/assets/SSULogo";
 import DevLogo from "@/assets/DevLogo";
 import Dev1Logo from "@/assets/Dev1Logo";
 import HtdLogo from "@/assets/HtdLogo"
+import Psupport from "@/assets/Psupport";
 
 export default function Experiences() {
   return (
@@ -78,7 +79,7 @@ export default function Experiences() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#3A3B3C", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #3A3B3C" }}
-          date="03/2024 - Present"
+          date="03/2024 - 06/2024"
           iconStyle={{ background: "#fff" }}
           icon={<HtdLogo />}
         >
@@ -87,6 +88,22 @@ export default function Experiences() {
           <p>
             Java · Maven · Spring Boot · JUnit · Testing · IntelliJ ·
             GitHub · Slack · Docker · SQL · JavaScript · React
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#3A3B3C", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #3A3B3C" }}
+          date="07/2024 - 09/2024"
+          iconStyle={{ background: "#fff" }}
+          icon={<Psupport />}
+        >
+          <h3 className="text-2xl">OPS CO Solutions</h3>
+          <span className="text-zinc-300">Production Support Analyst Training</span>
+          <p>
+          Production Support • Linux • Grafana • 
+          Jenkins • DevOps • MySQL • AWS • GitHub • Python •
+          Tickets • SQL Server Management Studio 
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
