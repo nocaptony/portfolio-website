@@ -10,6 +10,7 @@ import DevLogo from "@/assets/DevLogo";
 import Dev1Logo from "@/assets/Dev1Logo";
 import HtdLogo from "@/assets/HtdLogo"
 import Psupport from "@/assets/Psupport";
+import LogixHealth from "@/assets/LogixHealth";
 
 export default function Experiences() {
   return (
@@ -104,6 +105,22 @@ export default function Experiences() {
           Production Support • Linux • Grafana • 
           Jenkins • DevOps • MySQL • AWS • GitHub • Python •
           Tickets • SQL Server Management Studio 
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#3A3B3C", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #3A3B3C" }}
+          date="01/2025 - Present"
+          iconStyle={{ background: "#fff" }}
+          icon={<LogixHealth />}
+        >
+          <h3 className="text-2xl">LogixHealth</h3>
+          <span className="text-zinc-300">ERA Specialist</span>
+          <p>
+          Automation • Python • Allscripts • 
+          Microsoft Teams • Scripting • Testing •
+          Tickets • Troubleshooting • Health Care • Insurance
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
