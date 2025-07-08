@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import SoccerTracker from "../../public/soccertracker.png";
-import Java3D from "../../public/java3d.png";
+import MovieDB from "../../public/tmdb.png";
 import CapybaraMapper from "../../public/capybaramapper.png";
 
 export default function Projects() {
@@ -11,9 +11,9 @@ export default function Projects() {
         My Recent <span className="text-white">Works</span>
       </h3>
       <ul className="flex flex-col sm:flex-row">
-        <ProjectCard imgUrl={SoccerTracker} title="SoccerTracker" link="https://github.com/nocaptony/soccer-tracker"/>
-        <ProjectCard imgUrl={Java3D} title="Java Sandbox Game" link="https://github.com/nocaptony/java-fractal-lands"/>
+        <ProjectCard imgUrl={MovieDB} title="Tony's Movie Database" link="https://tk-movie-db.netlify.app/"/>
         <ProjectCard imgUrl={CapybaraMapper} title="CapybaraMapper" link="https://github.com/nocaptony/CapybaraMapper"/>
+        <ProjectCard imgUrl={SoccerTracker} title="SoccerTracker" link="https://github.com/nocaptony/soccer-tracker"/>
       </ul>
     </div>
   );

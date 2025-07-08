@@ -11,6 +11,7 @@ import Dev1Logo from "@/assets/Dev1Logo";
 import HtdLogo from "@/assets/HtdLogo"
 import Psupport from "@/assets/Psupport";
 import LogixHealth from "@/assets/LogixHealth";
+import TsdLogo from "@/assets/TsdLogo";
 
 export default function Experiences() {
   return (
@@ -111,7 +112,7 @@ export default function Experiences() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#3A3B3C", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #3A3B3C" }}
-          date="01/2025 - Present"
+          date="01/2025 - 07/2025"
           iconStyle={{ background: "#fff" }}
           icon={<LogixHealth />}
         >
@@ -121,6 +122,19 @@ export default function Experiences() {
           Automation • Python • Allscripts • 
           Microsoft Teams • Scripting • Testing •
           Tickets • Troubleshooting • Health Care • Insurance
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#3A3B3C", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #3A3B3C" }}
+          date="07/2025 - Present"
+          iconStyle={{ background: "#fff" }}
+          icon={<TsdLogo />}
+        >
+          <h3 className="text-2xl">TSD Mobility Solutions</h3>
+          <span className="text-zinc-300">Software QA Analyst</span>
+          <p>
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
