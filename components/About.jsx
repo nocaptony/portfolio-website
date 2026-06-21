@@ -5,21 +5,6 @@ export default function About() {
       className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-full
     px-10 justify-evenly mx-auto items-center"
     >
-      <motion.img
-        initial={{
-          x: -200,
-          opacity: 0,
-        }}
-        transition={{
-          duration: 1.2,
-        }}
-        whileInView={{ opacity: 1, x: 0 }}
-        src="/aboutPic.png"
-        alt="user picture"
-        className="mt-20 md:mb-0 flex-shrink-0 w-52 h-52 md:w-[300px] md:h-[300px]
-        rounded-full object-cover md:rounded-lg 
-        xl:w-[400px] xl:h-[400px] "
-      />
       <motion.div
         initial={{
           x: 200,

@@ -6,12 +6,12 @@ import profilePic from "../public/profilePic.png";
 
 function Hero() {
   const [greeting] = useTypewriter({
-    words: ["Hello", "你好", "नमस्ते", "Hola", "Bonjour", "مرحباً", "হ্যালো", "Привет", "Olá", "ہیلو", "Halo", "Hallo", "こんにちは", "Dobro Dan", "Ciao"],
+    words: ["Hello", "Përshëndetje", "你好", "नमस्ते", "Hola", "Bonjour", "مرحباً", "হ্যালো", "Привет", "Olá", "ہیلو", "Hallo", "こんにちは", "Dobro Dan", "Ciao"],
     loop: true,
     delaySpeed: 2000,
   });
   const [text] = useTypewriter({
-    words: ["I'm Tony", "<SoftwareDeveloper />"],
+    words: ["I'm Tony", "<SoftwareDeveloper />", "<SoftwareTester />"],
     loop: true,
     delaySpeed: 2000,
   });
@@ -34,7 +34,7 @@ function Hero() {
       </div>
       <div className="z-19">
         <h2 className="text-md uppercase text-gray-300 pb-2 tracking-[10px]">
-          Programmer
+          Programmer & Tester
         </h2>
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold px-10">
           <span>{greeting}</span>

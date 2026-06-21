@@ -135,6 +135,9 @@ export default function Experiences() {
           <h3 className="text-2xl">TSD Mobility Solutions</h3>
           <span className="text-zinc-300">Software QA Analyst</span>
           <p>
+            Manual Testing • Automated Testing • ReadyAPI • 
+            Postman • SQL Server Management Studio • Claude AI •
+            Azure DevOps Server • Jenkins • Xcode • Android Studio
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
