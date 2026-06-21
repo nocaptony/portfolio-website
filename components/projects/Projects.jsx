@@ -11,7 +11,7 @@ export default function Projects() {
         My Recent <span className="text-white">Works</span>
       </h3>
       <ul className="flex flex-col sm:flex-row">
-        <ProjectCard imgUrl={MovieDB} title="Tony's Movie Database" link="https://tk-movie-db.netlify.app/"/>
+        <ProjectCard imgUrl={MovieDB} title="Tony's Movie Database" link="https://tony-movie-db.netlify.app/"/>
         <ProjectCard imgUrl={CapybaraMapper} title="CapybaraMapper" link="https://github.com/nocaptony/CapybaraMapper"/>
         <ProjectCard imgUrl={SoccerTracker} title="SoccerTracker" link="https://github.com/nocaptony/soccer-tracker"/>
       </ul>
